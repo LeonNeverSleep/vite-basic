@@ -1,0 +1,14 @@
+@import "@/assets/scss/normalize.scss";
+@import "@/assets/scss/variable.scss";
+@import "@/assets/scss/mixin.scss";
+@import "@/assets/scss/flex.scss";
+@import "@/assets/scss/adaptive.scss";
+@import "@/assets/scss/global.scss";
+@import "@/assets/scss/utils.scss";
+@import "@/assets/scss/theme.scss";
+// @import "tailwindcss/base";
+// @import "tailwindcss/components";
+// @import "tailwindcss/utilities";
+@tailwind base;
+@tailwind utilities;
+@tailwind components;

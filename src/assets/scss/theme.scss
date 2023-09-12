@@ -1,0 +1,20 @@
+/* vant4 定制主题 */
+
+// 按钮-主要
+.van-button--primary {
+  background-color: $van-button-primary-color;
+  border-color: $van-button-primary-color;
+}
+
+// 按钮-朴素
+.van-button--plain {
+  background-color: transparent !important;
+  color: $van-button-primary-color;
+}
+
+// 搜索框
+.van-search {
+  background-color: $minor-color;
+  padding: 0px;
+  font-weight: bold;
+}

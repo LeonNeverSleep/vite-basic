@@ -1,0 +1,11 @@
+@use "sass:math";
+
+/*
+移动端尺寸比例兼容函数
+*/
+$vhAdjuster: math.div(100vw, 1440);
+// $vhAdjuster: 100vw/1440;
+
+@function px($n) {
+  @return $n * $vhAdjuster;
+}

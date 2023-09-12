@@ -1,0 +1,23 @@
+@import "@/assets/scss/variable.scss";
+
+html,
+body {
+  color: $font-color-default;
+  font-family: PingFang SC-Bold, PingFang SC !important;
+}
+
+body {
+  margin: 0;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}

@@ -1,0 +1,39 @@
+/**
+ * 样式全局混入，使用方法  @include 样式名(参数)
+ */
+
+// 文字超出n行隐藏，显示省略号
+@mixin text-ellipsis($n) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: $n;
+  -webkit-box-orient: vertical;
+  word-break: break-all;
+}
+
+/* 自居中 */
+@mixin self-center($pos: absolute) {
+  position: $pos;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* 水平居中 */
+@mixin hor-center($pos: absolute) {
+  position: $pos;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+}
+
+/* 全屏 */
+@mixin screen-full($pos: absolute) {
+  position: $pos;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}

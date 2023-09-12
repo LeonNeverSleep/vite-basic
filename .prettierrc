@@ -1,0 +1,12 @@
+{
+  "endOfLine": "auto",
+  "overrides": [
+    {
+      "files": ["*.html"],
+      "options": {
+        "parser": "html",
+        "endOfLine": "lf"
+      }
+    }
+  ]
+}

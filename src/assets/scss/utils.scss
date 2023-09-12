@@ -1,0 +1,55 @@
+/* scss 工具样式 */
+
+// 横向滚动
+.horizontal-scroll {
+    overflow-x: auto;
+    overflow-y: hidden;
+    scrollbar-width: none;
+    /* Firefox */
+    -ms-overflow-style: none;
+
+    /* IE 10+, edge */
+    &::-webkit-scrollbar {
+        display: none;
+        /* Chrome Safari */
+        // 或者 width: 0;
+    }
+}
+
+// 纵向滚动
+.vertical-scroll {
+    overflow-x: hidden;
+    overflow-y: auto;
+    scrollbar-width: none;
+    /* Firefox */
+    -ms-overflow-style: none;
+
+    /* IE 10+, edge */
+    &::-webkit-scrollbar {
+        display: none;
+        /* Chrome Safari */
+        // 或者 width: 0;
+    }
+}
+
+// 文本超出换行
+.text-beyond-newline {
+    word-break: break-all;
+}
+
+// 位置全屏
+.position-full-screen {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+// 位置-底部块级固定定位
+.position-block-bottom {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
